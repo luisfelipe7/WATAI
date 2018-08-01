@@ -139,7 +139,7 @@ $.AdminBSB.leftSideBar = {
         }
     },
     checkStatusForResize: function (firstTime) {
-        var $body = $('body ls-closed');
+        var $body = $('body);
         var $openCloseBar = $('.navbar .navbar-header .bars');
         var width = $body.width();
 
@@ -148,15 +148,6 @@ $.AdminBSB.leftSideBar = {
                 $(this).removeClass('no-animate').dequeue();
             });
         }
-
-       /* if (width < $.AdminBSB.options.leftSideBar.breakpointWidth) {
-            $body.addClass('ls-closed');
-            $openCloseBar.fadeIn();
-        }
-        else {
-            $body.removeClass('ls-closed');
-            $openCloseBar.fadeOut();
-        }*/
     },
     isOpen: function () {
         return $('body').hasClass('overlay-open');

@@ -139,7 +139,7 @@ $.AdminBSB.leftSideBar = {
         }
     },
     checkStatusForResize: function (firstTime) {
-        var $body = $('body);
+        var $body = $('body');
         var $openCloseBar = $('.navbar .navbar-header .bars');
         var width = $body.width();
 
@@ -148,6 +148,7 @@ $.AdminBSB.leftSideBar = {
                 $(this).removeClass('no-animate').dequeue();
             });
         }
+
         if (true) {
             $body.addClass('ls-closed');
             $openCloseBar.fadeIn();

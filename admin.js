@@ -149,7 +149,7 @@ $.AdminBSB.leftSideBar = {
             });
         }
 
-        if (width < $.AdminBSB.options.leftSideBar.breakpointWidth) {
+        if (true) {
             $body.addClass('ls-closed');
             $openCloseBar.fadeIn();
         }

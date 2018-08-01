@@ -148,6 +148,14 @@ $.AdminBSB.leftSideBar = {
                 $(this).removeClass('no-animate').dequeue();
             });
         }
+        if (true) {
+            $body.addClass('ls-closed');
+            $openCloseBar.fadeIn();
+        }
+        else {
+            $body.removeClass('ls-closed');
+            $openCloseBar.fadeOut();
+        }
     },
     isOpen: function () {
         return $('body').hasClass('overlay-open');

@@ -139,7 +139,7 @@ $.AdminBSB.leftSideBar = {
         }
     },
     checkStatusForResize: function (firstTime) {
-        var $body = $('body');
+        var $body = $('body ls-closed');
         var $openCloseBar = $('.navbar .navbar-header .bars');
         var width = $body.width();
 
